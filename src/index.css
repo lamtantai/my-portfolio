@@ -1,0 +1,31 @@
+/* font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@font-face {
+  font-family: 'Vanguard';
+  src: url('https://cdn.prod.website-files.com/5f5d041dc83a72a230e0090b/5f729a273e12c8c5fddc5a82_VanguardCF-DemiBold.woff')
+    format('woff');
+  font-weight: 600; /* Adjust based on the font weight */
+  font-style: normal; /* Adjust based on the font style */
+}
+
+/*  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-secondary;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+}
